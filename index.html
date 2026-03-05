@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyan's Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="overlay" data-overlay></div>
+      <a class="logo">Nyan's Portfolio</a>
+      <i class="bx bx-menu" id="nav-menu"></i>
+      <nav class="navbar">
+        <a href="#index" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills" >Skills</a>
+        <a href="#projects" >Projects</a>
+        <a href="#contact" >Contact</a>
+      </nav>
+      <button class="nav-btn" data-openmenu-btn>
+        <i class="fa-solid fa-bars fa-2xl" style="color: #797a7c"></i>
+      </button>
+      <nav class="navbar-menu" data-navbar-menu>
+        <button class="menu-close" aria-label="Menu Close" data-closemenu-btn>
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="nav-bottom">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#index" data-nav-link>Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" data-nav-link>About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skills" data-nav-link>Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" data-nav-link>Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home" id="index">
+      <div class="home-content">
+        <div class="photo">
+          <img src="Image/nyan.jpeg" alt="photo" />
+        </div>
+        <h1>Hi, I'm <span>Nyan Htoo Min</span></h1>
+       <h1 class="job-title">
+         <span class="fixed">J</span>
+         <span id="typing"></span>
+       </h1>
+        <pre>
+Passionate about building clean, 
+responsive, and user-friendly web applications.
+
+Currently focused on modern frontend development and backend fundamentals.
+        </pre>
+        <div class="btn-box" >
+          <a class="btn" id="talkBtn">Let's talk</a>
+        </div>
+        <div class="home-icon">
+          <a href="https://www.facebook.com/share/1Ffo4zGYZa/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/nyanhtoomin301?igsh=anVhZjlhb2QxeHlr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nyan-htoo-74775b3a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+
+      <div class="about-image">
+        <img src="Image/nyan.jpeg" alt="" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+       
+        <ul style="padding-left: 20px; text-align: left;">
+         <li>Junior Fullstack Developer with a passion for building clean and responsive web applications. </li>
+         <li>I enjoy working across both frontend and backend to create practical and user-friendly solutions.</li>
+         <li>I am always learning new technologies, improving my coding skills, and exploring modern development trends such as AI-powered applications.</li>
+        </ul>
+      </div>
+
+      <div class="Journey">
+        <h1 class="jn-title"><span>Education</span></h1>
+        <div class="edu-box">
+          <div class="circle-box">
+            <div class="edu-circle"></div>
+            <div class="edu-circle"></div>
+            <div class="edu-circle"></div>
+          </div>
+        <div class="education">
+          <div class="edu-content">
+            <p class="edu-date"><i class="bx bx-calendar-alt"></i> 2019-2020</p>
+            <h3>Grade-10</h3>
+          </div>
+        </div>
+        <div class="education">
+          <div class="edu-content">
+            <p class="edu-date"><i class="fa fa-calendar"></i> 2023-2025</p>
+            <h3>IP Certificate (ITPEC)</h3>
+            <p>
+             
+            </p>
+          </div>
+        </div>
+        <div class="education">
+          <div class="edu-content">
+            <p class="edu-date"><i class="fa fa-calendar"></i> 2024-2025</p>
+            <h3>Professional Web Development Certificate (Sir Ei Mg)</h3>
+            <p>
+             
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tech section  -->
+
+    <!-- Tech Stack section -->
+    <section class="tech-stack" id="skills">
+      <div class="stack-container">
+        <h2 class="section-title">Tech <span>Stack</span></h2>
+
+        <div class="tech-grid">
+          <article class="tech-card" data-tech="javascript">
+            <img src="Image/javascript.png" alt="JavaScript logo" />
+            <p>JavaScript</p>
+          </article>
+
+          <article class="tech-card" data-tech="react">
+            <img src="Image/react.png" alt="React logo" />
+            <p>React</p>
+          </article>
+
+          <article class="tech-card" data-tech="nodejs">
+            <img src="Image/nodejs.png" alt="Node.js logo" />
+            <p>Node.js</p>
+          </article>
+
+          <article class="tech-card" data-tech="github">
+            <img src="Image/github.png" alt="GitHub logo" />
+            <p>GitHub</p>
+          </article>
+
+          <article class="tech-card" data-tech="vercel">
+            <img src="Image/vercel.png" alt="Vercel logo" />
+            <p>Vercel</p>
+          </article>
+
+          <article class="tech-card" data-tech="postman">
+            <img src="Image/postman.png" alt="Postman logo" />
+            <p>Postman</p>
+          </article>
+
+          <article class="tech-card" data-tech="postgresql">
+            <img src="Image/sql.png" alt="PostgreSQL logo" />
+            <p>PostgreSQL</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+     <section class="projects" id="projects">
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="img-role">
+            <p>+2</p>
+           <img src="Image/quiz mobile view.jpeg " data-images='["Image/quiz mobile view.jpeg ","Image/quiz desktop view.jpeg "]' alt="quiz app screenshot" class="quiz-img2">
+          </div>
+          <h3>Simple JavaScript Quiz App</h3>
+          <p>
+            A simple multiple-choice quiz built with HTML, CSS and JavaScript. Shows score, next/previous question and interactive UI. 
+          </p>
+          <div class="project-link">
+            <a href="https://easyquiz-app.netlify.app/" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/quiz-app" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="img-role">
+            <p>+2</p>
+            <img src="Image/converter-mobile-view.jpeg " data-images='["Image/converter-mobile-view.jpeg ","Image/converter desktop view.jpeg "]' alt="quiz app screenshot" class="quiz-img2">
+          </div>
+          <h3>Text to Speech Converter App</h3>
+          <p>
+            A simple Text-to-Speech tool that converts written text into natural-sounding audio using the Web Speech API.Built with HTML, CSS and JavaScript.
+          </p>
+          <div class="project-link">
+            <a href="https://voiceconverterapp.netlify.app/" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/voice-convertor-app" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="img-role">
+            <img src="Image/weather.jpeg" alt="weather app screenshot" class="single-img">
+          </div>
+          <h3>Weather App</h3>
+          <p>
+            Live weather updates by city name using OpenWeather API.It displays temperature, humidity and wind speed.
+          </p>
+          <div class="project-link">
+            <a href="https://oneday-weather.netlify.app/" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/WeatherApp" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="img-role">
+            <img src="Image/Calculator.jpeg" alt="calculator app screenshot" class="single-img">
+          </div>
+          <h3>Calculator App</h3>
+          <p>
+            A simple calculator app that allows users to perform basic arithmetic operations such as addition, substraction, multiplication and division.It is built with HTML, CSS and JavaScript. The UI is clean, responsive and easy to use.
+          </p>
+          <div class="project-link">
+            <a href="https://eazycalculator-app.netlify.app/" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/Calculator-App" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="img-role">
+            <p>+2</p>
+           <img src="Image/todo-mobile-view.jpeg " data-images='["Image/todo-mobile-view.jpeg ","Image/todo desktop view.jpeg "]' alt="quiz app screenshot" class="quiz-img2">
+          </div>
+          <h3>ToDo List</h3>
+          <p>
+            A Todo app frontend built with React and Material UI, featuring a responsive design and task management functionality such as adding, editing, and deleting todos.
+          </p>
+          <div class="project-link">
+            <a href="https://eazytodo.netlify.app" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/Todo-Frontend" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+         <div class="project-card">
+          <div class="img-role">
+            <img src="Image/movie.jpeg" alt="movie app screenshot" class="single-img">
+          </div>
+          <h3>Movie App</h3>
+          <p>
+            MovieHub is a modern movie discovery web app built with React and Material UI that allows users to browse trending, popular and top-rated movies using the TMDB API.
+          </p>
+          <div class="project-link">
+            <a href="https://movie-app-omega-three-10.vercel.app/" class="project-btn" target="_blank">Live</a>
+            <a href="https://github.com/nyanhtoo456/MovieApp" class="project-btn" target="_blank">Code</a>
+          </div>
+        </div>
+      </div>
+       <!-- Overlay -->
+  <div class="project-overlay" id="projectOverlay">
+    <div class="modal">
+      <span class="close" id="close">×</span>
+
+      <div class="view">
+        <button id="desktopBtn" class="active">Mobile</button>
+        <button id="mobileBtn">Desktop</button>
+      </div>
+
+      <button class="arrow prev" id="prev">❮</button>
+      <button class="arrow next" id="next">❯</button>
+
+      <div class="image-box">
+        <img id="modalImage" src="" alt="Preview" />
+      </div>
+    </div>
+  </div>
+     </section>
+
+    <!-- contact  section-->
+
+    <div class="contact" id="contactForm">
+      <div class="con-header" id="contact">
+        <h3>Contact <span>Me!</span></h3>
+      </div>
+      <form action="">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" id="name" placeholder="Name" required />
+            <span></span>
+          </div>
+          <div class="input-field">
+            <input type="text" id="phone" placeholder="Number" required />
+            <span></span>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" id="email" placeholder="Email" required />
+            <span></span>
+          </div>
+          <div class="input-field">
+            <input type="text" id="company" placeholder="Company" required />
+            <span></span>
+          </div>
+        </div>
+        <div class="msg">
+          <textarea
+            name=""
+            id="message"
+            rows="10"
+            cols="30"
+            placeholder="Message"
+          ></textarea>
+        </div>
+
+        <div class="btn-box btns">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+  
+
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <!-- Brand / contact -->
+      <div class="fbrand" aria-hidden="false">
+        <div class="info">
+          <div class="name">Nyan Htoo Min</div>
+          <div class="loc">Yangon, Myanmar</div>
+        </div>
+      </div>
+
+      <!-- Contact items + social -->
+      <div class="contacts" role="navigation" aria-label="Contact and social links">
+        <!-- email link -->
+        <a href="mailto:nyanhtoo.786@gmail.com" title="Email">
+          <!-- small mail svg -->
+          <i class="fa-regular fa-envelope" style="color: #f5f5f5;"></i>
+          <span>nyanhtoo.786@gmail.com</span>
+        </a>
+
+        <!-- social icons -->
+        <div class="social" aria-hidden="false">
+          <a class="icon-btn" href="https://github.com/nyanhtoo456" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.92 3.17 9.09 7.57 10.56.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.03-3.08.67-3.73-1.48-3.73-1.48-.5-1.28-1.22-1.62-1.22-1.62-.99-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.46-.28-5.05-1.23-5.05-5.47 0-1.21.43-2.2 1.13-2.97-.11-.28-.49-1.41.11-2.94 0 0 .92-.29 3.02 1.13a10.5 10.5 0 012.75-.37c.93.01 1.87.12 2.75.37 2.09-1.42 3.01-1.13 3.01-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.76 1.13 2.97 0 4.25-2.6 5.19-5.07 5.46.39.34.74 1.01.74 2.04 0 1.47-.01 2.65-.01 3.01 0 .29.19.64.76.53C19.08 20.84 22.25 16.67 22.25 11.75 22.25 5.48 17.27.5 12 .5z"/>
+            </svg>
+          </a>
+
+          <a class="icon-btn" href="https://www.linkedin.com/in/nyan-htoo-74775b3a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.98 3.5C4.98 4.6 4.08 5.5 2.98 5.5 1.88 5.5 1 4.6 1 3.5 1 2.4 1.9 1.5 3 1.5 4.1 1.5 4.98 2.4 4.98 3.5zM.5 23.5h5V8.5h-5v15zM8.5 23.5h5v-8c0-4.4 6-4.8 6 0v8h5v-10.5c0-7-7.5-6.8-11-3.3V8.5h-5V23.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- meta / copyright -->
+      <div class="meta">
+        <p class="small">Built with HTML, CSS & JavaScript</p>
+        <a class="back-top" href="#top" aria-label="Back to top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+      const menuOpenBtn = document.querySelectorAll("[data-openmenu-btn]");
+      const overLay = document.querySelector("[data-overlay]");
+      const menuCloseBtn = document.querySelectorAll("[data-closemenu-btn]");
+      const navLinks = document.querySelectorAll("[data-nav-link]");
+      const navBar = document.querySelector("[data-navbar-menu]");
+
+      const navToggleElem = [
+        ...menuOpenBtn,
+        ...navLinks,
+        ...menuCloseBtn,
+        overLay,
+      ];
+
+      navToggleElem.forEach((elems) => {
+        elems.addEventListener("click", () => {
+          navBar.classList.toggle("active");
+          overLay.classList.toggle("active");
+        });
+      });
+
+      // document.querySelector("#talkBtn").addEventListener("click", function () {
+      //   document
+      //     .querySelector("#contact")
+      //     .scrollIntoView({ behavior: "smooth" });
+      // });
+
+      //scroll 
+      function Scroll(targetId) {
+        const headerOffset = 70;
+        const target = document.getElementById(targetId);
+        if(!target) return;
+        const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPositionn = elementPosition - headerOffset;
+        window.scrollTo({
+          top: offsetPositionn,
+          behavior: "smooth"
+        });
+      }
+
+      document.querySelectorAll('.navbar a[href^="#"]').forEach(links => {
+        links.addEventListener("click" , function(e){
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          Scroll(targetId);
+        })
+      })
+
+      document.querySelector("#talkBtn").addEventListener("click", function() {
+        Scroll("contact");
+      });
+
+
+
+const typingText = "unior FullStack Developer";
+const outPut = document.querySelector('#typing');
+
+let index = 0;
+
+async function typeAnimation() {
+  while(true) {
+    while(index < typingText.length) {
+      outPut.textContent += typingText[index];
+      index++;
+
+      await new Promise(r => setTimeout(r , 120));
+    };
+    await new Promise(r => setTimeout(r , 1200));
+
+    while(index > 0) {
+      index--;
+      outPut.textContent = typingText.slice(0, index);
+
+      await new Promise(r => setTimeout(r , 80));
+    };
+    await new Promise(r => setTimeout(r , 1000));
+  }
+};
+
+typeAnimation();
+
+
+ const projectOverlay = document.getElementById('projectOverlay');
+    const modalImage = document.getElementById('modalImage');
+    const closeBtn = document.getElementById('close');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const desktopBtn = document.getElementById('desktopBtn');
+    const mobileBtn = document.getElementById('mobileBtn');
+
+    let images = [];
+    let currentIndex = 0;
+
+    document.querySelectorAll('.img-role img').forEach(img => {
+      img.addEventListener('click', () => {
+        images = JSON.parse(img.dataset.images);
+        currentIndex = 0;
+        openModal();
+      });
+    });
+
+    function openModal() {
+      modalImage.src = images[currentIndex];
+      projectOverlay.classList.add('active');
+      document.body.classList.add('no-scroll');
+      setActiveView();
+    }
+
+    function closeModal() {
+      projectOverlay.classList.remove('active');
+      document.body.classList.remove('no-scroll');
+    }
+
+    function showImage() {
+      modalImage.src = images[currentIndex];
+      setActiveView();
+    }
+
+    function setActiveView() {
+      desktopBtn.classList.toggle('active', currentIndex === 0);
+      mobileBtn.classList.toggle('active', currentIndex === 1);
+    }
+
+    prevBtn.onclick = () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage();
+    };
+
+    nextBtn.onclick = () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage();
+    };
+
+    desktopBtn.onclick = () => {
+      currentIndex = 0;
+      showImage();
+    };
+
+    mobileBtn.onclick = () => {
+      currentIndex = 1;
+      showImage();
+    };
+
+    closeBtn.onclick = closeModal;
+    projectOverlay.onclick = e => {
+      if (e.target === projectOverlay) closeModal();
+    };
+
+
+    <!-- contact presend email-->
+
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const userName = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
+  const company = document.getElementById("company").value;
+  const message = document.getElementById("message").value;
+
+  const mailBody = `
+Name: ${userName}
+Phone: ${phone}
+Email: ${email}
+Company: ${company}
+
+Message:
+${message}`
+;
+
+  const mailtoLink = `mailto:nyanhtoo.786@gmail.com?subject=Portfolio Contact&body=${encodeURIComponent(mailBody)}`;
+  window.location.href = mailtoLink;
+});
+
+// Tech Stack: reveal + staggered delay
+(function () {
+  const cards = document.querySelectorAll('.tech-card');
+  const title = document.querySelector('.section-title');
+
+  cards.forEach((c, i) => c.style.setProperty('--delay', `${i * 120}ms`));
+
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.18 }
+  );
+
+  cards.forEach((c) => observer.observe(c));
+
+  if (title) {
+    const titleObs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => e.isIntersecting && title.classList.add('revealed'));
+      },
+      { threshold: 0.2 }
+    );
+    titleObs.observe(title);
+  }
+})();
+
+
+
+// Home section entrance: set stagger delays and reveal when visible
+(function () {
+  const home = document.querySelector('.home');
+  if (!home) return;
+
+  // set staggered delays as CSS variables on the home element
+  const delays = {
+    photo: 120,
+    title: 220,
+    job: 340,
+    text: 480,
+    cta: 620,
+    icons: 740,
+  };
+
+  Object.entries(delays).forEach(([k, v]) => {
+    home.style.setProperty(`--delay-${k}`, `${v}ms`);
+  });
+
+  const obs = new IntersectionObserver(
+    (entries, o) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          home.classList.add('home-visible');
+          // o.unobserve(e.target);
+        } else {
+          home.classList.remove('home-visible')
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  obs.observe(home);
+})();
+
+    </script>
+  </body>
+</html>
